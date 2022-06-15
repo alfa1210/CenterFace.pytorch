@@ -1,0 +1,32 @@
+{
+    "info": {
+        "version": "1.0",
+        "year": 2020,
+        "contributor": "Mr.yang",
+        "date_created": "2018/08/21",
+        "github": "https://github.com/bleakie"
+    },
+    "licenses": [
+        {
+            "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+            "name": "Attribution-NonCommercial-ShareAlike License",
+            "id": 1
+        }
+    ],
+    "images": [],
+    "annotations": [],
+    "categories": [
+        {
+            "supercategory": "face",
+            "id": 1,
+            "name": "face",
+            "keypoints": [
+                "left_eye",
+                "right_eye",
+                "nose",
+                "left_mouth",
+                "right_mouth"
+            ]
+        }
+    ]
+}
