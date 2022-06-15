@@ -1,0 +1,15 @@
+Cython             
+matplotlib         
+nms                
+numba              
+numpy              
+onnx               
+opencv-python      
+Pillow             
+progress           
+protobuf           
+pycocotools        
+pytorch-extension  
+scipy              
+torch              
+torchvision        
