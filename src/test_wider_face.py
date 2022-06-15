@@ -86,6 +86,6 @@ def test_wider_Face(model_path):
 
 if __name__ == '__main__':
     MODEL_PATH = '../exp/multi_pose/mobilev2_10/model_best.pth'
-    # test_img(MODEL_PATH)
-    test_vedio(MODEL_PATH)
+    test_img(MODEL_PATH)
+    #test_vedio(MODEL_PATH)
     # test_wider_Face(MODEL_PATH)

@@ -56,10 +56,10 @@ dependencies:
   - pip:
     - absl-py==0.8.0
     - addict==2.2.1
-    - apex==0.1
+    - pytorch-extension==0.1
     - astor==0.8.0
     - astroid==2.2.5
-    - bert4keras==0.1.4
+    - bert4keras==0.4.6
     - colour==0.1.5
     - fire==0.2.0
     - flask-cors==3.0.8
@@ -88,7 +88,7 @@ dependencies:
     - opencv-python==4.1.2.30
     - overrides==2.5
     - packaging==19.2
-    - paddlepaddle==1.5.2
+    - paddlepaddle==1.7.0
     - pillow==6.2.2
     - prettytable==0.7.2
     - pyclipper==1.1.0.post1
@@ -96,7 +96,7 @@ dependencies:
     - pymysql==0.9.3
     - pyqt5==5.13.2
     - pyqt5-sip==12.7.0
-    - python-graphviz==0.13
+    - graphviz==0.13
     - qtpy==1.9.0
     - rarfile==3.1
     - recordio==0.1.7
@@ -105,7 +105,6 @@ dependencies:
     - tensorboard==1.14.0
     - tensorflow-estimator==1.14.0
     - tensorflow-gpu==1.14.0
-    - tensorrt==6.0.1.5
     - termcolor==1.1.0
     - terminaltables==3.1.0
     - toml==0.10.0

@@ -17,7 +17,11 @@ from utils.Randaugmentations import Randaugment
 import math
 from PIL import Image
 import re
-from torch._six import container_abcs, string_classes, int_classes
+#from torch._six import container_abcs, string_classes, int_classes
+import collections.abc as container_abcs
+#from torch._six import string_classes, int_classes
+int_classes = int
+string_classes = str
 
 np_str_obj_array_pattern = re.compile(r'[SaUO]')
 
@@ -45,6 +49,7 @@ class MultiPoseDataset(data.Dataset):
         num_objs = self.max_objs
         anns = np.random.choice(anns, num_objs)
 
+    print(img_path)
     img = cv2.imread(img_path)
 
     img, anns = Data_anchor_sample(img, anns)
