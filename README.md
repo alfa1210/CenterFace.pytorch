@@ -27,6 +27,10 @@ pip install -r requirements.txt
 # for conda
 conda create --name torch python=3.8
 pip install -r requirements.txt
+
+# also do this
+cd src/lib/external
+make
 ```
 
 ## Test
