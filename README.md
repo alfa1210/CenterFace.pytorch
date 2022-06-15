@@ -25,17 +25,18 @@ cd $project
 pip install -r requirements.txt
 
 # for conda
-conda env create -f enviroment.yaml
+conda create --name torch python=3.8
+pip install -r requirements.txt
 ```
 
 ## Test
 1. download the pretrained model from [Baidu](https://pan.baidu.com/s/1sU3pRBTFebbsMDac-1HsQA) password: etdi
 
-2. download the validation set of [WIDER_FACE](https://pan.baidu.com/s/1b5Uku0Bb13Zk9mf7mkZ3FA) password:  y4wg
+2. download the validation set of [WIDER_FACE](http://shuoyang1213.me/WIDERFACE/)
 3. test on the validation set
 ```sybase
 cd $project/src
-source activate torch110
+conda activate torch
 python test_wider_face.py
 ```
 
@@ -63,7 +64,7 @@ The annotation file is in coco format. the annotation file and train data can do
 train
 ```sybase
 cd $project/src/tools
-source activate torch110
+conda activate torch
 python main.py
 ```
 
